@@ -11,6 +11,6 @@ updates:
 registries:
   jfrog-artifactroy:
     type: "python-index"
-    url: "https://jfrogghdemo.jfrog.io/artifactory/api/pypi/db-dependbot-python"
+    url: "https://jfrogghdemo.jfrog.io/artifactory/api/pypi/db-dependbot-python/simple"
     username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
     password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"
