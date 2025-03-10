@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"  # Path to your Python project
+    schedule:
+      interval: "daily"
+    registries:
+      jfrog: # Define the registry to use (you'll reference this below)
+        type: "python-index"
+        url: "https://jfrogghdemo.jfrog.io/artifactory/api/pypi/db-dependbot-python"
+        username: "thavaahariharangit@github.com"  # Store username in GitHub Secrets
+        password: "${{ secrets.JFROG_ARTIFACTORY_TOKEN }}"  # Store API key in GitHub Secrets
