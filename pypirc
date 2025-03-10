@@ -1,0 +1,2 @@
+[global]
+index-url = https://thavaahariharangit@github.com:${secrets.JFROG_ARTIFACTORY_TOKEN}@jfrogghdemo.jfrog.io/artifactory/api/pypi/db-dependbot-python/simple
